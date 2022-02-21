@@ -1,0 +1,19 @@
+{
+  "name": "blog-site",
+  "version": "1.0.0",
+  "description": "Thats the frontend for my Blog.",
+  "main": "out/app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unendlicherPing/blog-site.git"
+  },
+  "author": "unendlicherPing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unendlicherPing/blog-site/issues"
+  },
+  "homepage": "https://github.com/unendlicherPing/blog-site#readme"
+}
