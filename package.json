@@ -4,8 +4,8 @@
   "description": "Thats the frontend for my Blog.",
   "main": "out/app.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn ./src/index.ts",
-    "start": "ts-node ./src/index.ts",
+    "dev": "ts-node-dev --respawn ./src/app.ts",
+    "start": "ts-node ./src/app.ts",
     "test": "jest"
   },
   "repository": {
