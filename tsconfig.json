@@ -2,8 +2,8 @@
   "compilerOptions": {                        
     "target": "es6",                               
     "module": "commonjs",                           
-    "outDir": "./out",                             
-    "rootDir": "./src",                             
+    "outDir": "./src",                             
+    "rootDir": "./src/ts/",                             
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true

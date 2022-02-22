@@ -1,16 +1,15 @@
 /*-------------
- *  app.ts
+ *  app.js
  *-----------*/
 
 //Imports
-import express from "express";
-import helmet from "helmet";
+const express = require('express');
+const helmet = require('helmet');
 
 // Initializes the app
-const app: express.Application = express();
+const app = express();
 
 //Settings
-app.set("view engine", "ejs");
 
 //Middleware
 app.use(express.static("public"));
@@ -20,8 +19,8 @@ app.use(express.urlencoded( {extended: false} ));
 app.use(helmet());
 
 //Handle gets
-const handleGet = (req: express.Request, res: express.Response): void => {
-  res.sendFile(__dirname, "../views/index.html");
+const handleGet = (req, res) => {
+  res.sendFile("html/index.html", {root: __dirname});
 }
 
 app.get("/", handleGet);

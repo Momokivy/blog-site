@@ -2,10 +2,10 @@
   "name": "blog-site",
   "version": "1.0.0",
   "description": "Thats the frontend for my Blog.",
-  "main": "out/app.js",
+  "main": "src/app.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn ./src/app.ts",
-    "start": "ts-node ./src/app.ts",
+    "ts_dev": "ts-node-dev --respawn ./src/app.ts",
+    "ts_start": "ts-node ./src/app.ts",
     "test": "jest"
   },
   "repository": {
