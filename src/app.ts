@@ -21,7 +21,7 @@ app.use(helmet());
 
 //Handle gets
 const handleGet = (req: express.Request, res: express.Response): void => {
-  res.sendFile("views/index.html", {root: __dirname});
+  res.sendFile("../views/index.html", {root: __dirname});
 }
 
 app.get("/", handleGet);
