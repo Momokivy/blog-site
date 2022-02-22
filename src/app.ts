@@ -20,8 +20,8 @@ app.use(express.urlencoded( {extended: false} ));
 app.use(helmet());
 
 //Handle gets
-const handleGet = (req: express.Request, res: express.Response) => {
-  res.sendFile("./views/index.html");
+const handleGet = (req: express.Request, res: express.Response): void => {
+  res.sendFile("views/index.html", {root: __dirname});
 }
 
 app.get("/", handleGet);
